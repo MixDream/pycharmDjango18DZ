@@ -1,7 +1,9 @@
-from django.contrib import admin
-from django.urls import path, include
+
+from django.urls import path
+from task4.views import platform, games, cart
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('task2/', include('task2.urls')),
+    path('platform/', platform, name='platform'),
+    path('platform/games/', games, name='games'),
+    path('platform/cart/', cart, name='cart'),
 ]

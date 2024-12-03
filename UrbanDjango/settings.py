@@ -1,12 +1,6 @@
 INSTALLED_APPS = [
-    ...
-    'task2',
-]
-
-TEMPLATES = [
-    {
-        ...
-        'DIRS': [BASE_DIR / 'templates'],
-        ...
-    },
+    'task1'
+    'task2'
+    'task3'
+    'task4',
 ]
