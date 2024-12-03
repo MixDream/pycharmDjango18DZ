@@ -1,0 +1,19 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>{% block pagename %}{% endblock %}</title>
+    </head>
+    <body>
+        {% block menu %}
+            <nav>
+                <a href="/">Главная</a>
+                <a href="/shop">Магазин</a>
+                <a href="/cart">Корзина</a>
+            </nav>
+        {% endblock %}
+
+        {% block content %}
+        {% endblock %}
+    </body>
+    </html>
+    
